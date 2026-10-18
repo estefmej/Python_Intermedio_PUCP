@@ -1,8 +1,23 @@
-requests==2.32.3
-beautifulsoup4==4.12.3
-lxml==5.3.0
-pandas==2.2.3
-plotly==5.24.1
-kaleido==0.2.1
-ipykernel==6.29.5
-nbformat==5.10.4
+# Versiones compatibles con Python 3.14 (Windows / Anaconda)
+
+# Parte 1 – Recolección
+requests==2.34.2
+beautifulsoup4==4.15.0
+lxml==6.1.3
+pandas==3.0.6
+numpy==2.5.3
+plotly==7.1.0
+kaleido==1.4.0
+ipykernel==7.3.0
+nbformat==5.11.1
+
+# Parte 2 – Clasificación
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+torch==2.14.0
+transformers==5.17.0
+accelerate==1.15.0
+google-genai==1.2.0
+python-dotenv==1.2.3

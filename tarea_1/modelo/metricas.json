@@ -1,0 +1,10 @@
+{
+  "n_noticias": 388,
+  "f1_macro_test": 0.8502,
+  "accuracy_test": 0.8475,
+  "acuerdo_llm_humano": 1.0,
+  "f1_macro_zero_shot_40": 0.5606,
+  "modelo_base": "distilbert-base-multilingual-cased",
+  "modelo_llm": "gemini-flash-latest",
+  "fecha_entrenamiento": "2026-10-18"
+}
