@@ -1,0 +1,5 @@
+{
+  "modelo_llm": "gemini-flash-latest",
+  "tamano_lote": 20,
+  "seg_por_titular": 1.019674455996641
+}
