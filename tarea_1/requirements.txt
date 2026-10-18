@@ -21,3 +21,6 @@ transformers==5.17.0
 accelerate==1.15.0
 google-genai==1.2.0
 python-dotenv==1.2.3
+
+# Parte 3 – Dashboard
+streamlit==1.64.0
