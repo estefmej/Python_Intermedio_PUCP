@@ -1,0 +1,19 @@
+# Pesos del modelo (GitHub rechaza archivos > 100 MB)
+modelo/*.safetensors
+modelo/*.bin
+modelo/checkpoint-*/
+modelo/**/*.safetensors
+modelo/**/*.bin
+*.pt
+results/
+runs/
+
+# Entornos y temporales
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Credenciales (¡nunca subir claves API!)
+.env
+.streamlit/secrets.toml
