@@ -21,7 +21,7 @@ RUTA_MODELO = BASE / "modelo"
 
 # Si los pesos no están en la carpeta modelo/ (no se suben a GitHub por pesar >100 MB),
 # el modelo se descarga desde Hugging Face Hub. Cambia este valor por tu repositorio.
-MODELO_HF = os.environ.get("MODELO_HF", "TU_USUARIO_HF/clasificador-noticias-elcomercio")
+MODELO_HF = os.environ.get("MODELO_HF", "Estefanny/clasificador-noticias-elcomercio")
 
 CATEGORIAS = ["politica", "economia", "deportes", "ciencia_tecnologia"]
 NOMBRES = {"politica": "🏛️ Política", "economia": "💰 Economía",
