@@ -68,10 +68,12 @@ streamlit run app.py
 
 La app se abre en `http://localhost:8501`.
 
+También puedes verla publicada, sin instalar nada: **https://clasificador-noticias-pucp-e.streamlit.app**
+
 ### 🤖 Modelo
 Los pesos del modelo (`model.safetensors`, ~540 MB) **no están en GitHub** porque superan el límite de 100 MB. La app los busca así:
 1. Si existen en `modelo/` (después de ejecutar `02_clasificacion.ipynb`), usa esa carpeta.
-2. Si no, los descarga desde Hugging Face Hub: **`TU_USUARIO_HF/clasificador-noticias-elcomercio`**.
+2. Si no, los descarga desde Hugging Face Hub: **`Estefanny/clasificador-noticias-elcomercio`**.
 
 ### 🔑 Re-ejecutar los notebooks (opcional)
 Las etiquetas del LLM ya están guardadas en `datos/etiquetas_llm.csv`, así que **no se necesita clave de API** para ejecutar `02_clasificacion.ipynb`. Solo si se borra ese archivo, el notebook pedirá una `GEMINI_API_KEY` (gratuita en [aistudio.google.com](https://aistudio.google.com)), que se lee de un archivo `.env` excluido en `.gitignore`.
